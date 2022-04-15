@@ -11,4 +11,4 @@ class Logger {
   }
 }
 
-module.exports = new Logger('DEFAULT') // Instanciación del objeto y se exporta
+module.exports = new Logger('DEFAULT') no// Instanciación del objeto y se exporta

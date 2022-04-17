@@ -1,9 +1,13 @@
 console.log("Creación de un objeivo con propiedades:")
 
-const myObject = {
-    name: "Juan",
+const myObject = { //objeto 
+    name: "Juan",  //propiedades
     age: 27,
     mission: "Node JS"
 }
 
-console.log(myObject)
+console.log(myObject) //imprime las propiedades del objeto
+
+console.log("Accediendo a las propiedades del objeto: ")
+console.log(myObject.age)  //imprime la propiedad del objeto que pedimos
+console.log(myObject["age"])  //imprime una propiedad que indiquemos

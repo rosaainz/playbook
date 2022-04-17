@@ -14,8 +14,12 @@ console.log(myObject["age"])  //imprime una propiedad que indiquemos
 
 const ajolonauta = {
     name: "Woopa",
-    mission: "Node JS"
+    mission: "Node JS",
+    sayHello: function(){   //creacion de funcion
+        console.log("Soy el ajolonauta, que onda!") //instruccion de la funcion
+    }
 }
 
 console.log("Ajolonauta:")
 console.log(ajolonauta)
+ajolonauta.sayHello() //llamada a la funcion

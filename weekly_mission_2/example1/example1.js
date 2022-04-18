@@ -25,7 +25,7 @@ const explorers = [
     {
         name: "Explorer 2",
         exercises_completed: 9,
-        city: "Veracruz",
+        city: "CDMX",
         rate: 50,
         stack: [
             "js"
@@ -87,6 +87,13 @@ console.log(explorers_stacks)
 
 
 //Obten la lista de los explorers que tengan en su lista "js" 
+//metodo filter e include
 console.log("Ejercicio 2.4")
 const explorers_with_js = explorers.filter(my_explorer_in_list => my_explorer_in_list.stack.includes("js")) //filter tambien trae info de otra lista y la guarda en una nueva E INCLUDES, hace que busque especificamente 
 console.log(explorers_with_js)
+
+//imprimir al primer explorer que tenga cdmx en city
+//metodo find. encuentra el PRIMERO y es el unico que imprime
+console.log("Ejercicio 2.5")
+const first_explorer_in_cdmx = explorers.find(my_explorer_in_list => my_explorer_in_list.city === "CDMX")
+console.log(first_explorer_in_cdmx)

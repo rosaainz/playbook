@@ -47,3 +47,22 @@ console.log('/// Ejercicio 2 /// Issue')
 console.log("Titulo del issue: " +issue.title)
 console.log("Información del issue: " +issue.getTitleAndAuthor())
 console.log(issue.getGeneralInfo())
+
+// PullRequest 
+const pullRequest = {
+    title: 'adding my blog',
+    branchName: 'main',
+    dateCreated: '19 de Abril',
+    status: 'verified',
+    repositoryNameAssociated: 'visualpartnership' ,
+    getStatus: function(){
+        return this.status
+    },
+    getTitleAndAutor: function(){
+        return this.title + this.repositoryNameAssociated
+    }
+}
+console.log('/// Ejercicio 2 /// PullRequest')
+console.log("Titulo del PR: " +pullRequest.title)
+console.log("Status del PR: " +pullRequest.getStatus())
+console.log(pullRequest.getTitleAndAutor())

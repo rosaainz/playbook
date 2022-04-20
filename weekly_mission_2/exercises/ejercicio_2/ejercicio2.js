@@ -101,3 +101,7 @@ console.log(frontend_true)
 
 //2.8 Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding
 // como true. Usa EVERY.
+console.log("\nEjercicio 2.8")
+const all_onboarding_finished = explorers.every(list_explorers => list_explorers.missions.onboarding.excercisesFinished === true)
+console.log(all_onboarding_finished)
+

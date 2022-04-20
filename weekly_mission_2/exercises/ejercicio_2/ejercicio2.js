@@ -69,4 +69,10 @@ const explorers = [
 console.log("\nEjercicio 2.2")
 explorers.forEach(item => console.log(item.stack))
 
-//
+//2.3 Crea una nueva lista con las listas de stacks de cada explorer, usa MAP
+console.log("\nEjercicio 2.3")
+const explorers_stacks = explorers.map(my_explorer_in_list => (my_explorer_in_list.stack)) //map ayuda a crear una nueva lista apartir de otra, para extraer info
+console.log(explorers_stacks) 
+
+
+

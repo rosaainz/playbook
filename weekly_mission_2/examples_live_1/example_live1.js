@@ -101,9 +101,7 @@ console.log(first_explorer_in_cdmx)
 //Obten la suma de todos los exercises_completed de los explorers
 //   Metodo reduce. Funciona con un acumulador 
 console.log("Ejercicio 2.6")
-const all_exercises = 
-explorers.reduce(
-    (acc, my_explorer_in_list => acc + my_explorer_in_list.excercises_completed, 0))
+const all_exercises = explorers.reduce((acc, my_explorer_in_list => acc + my_explorer_in_list.excercises_completed, 0))
     //(acumulador, variable) => acumulador + variable.deDondeLoSacaras, inicializar el acc))
     // el acumulador inicia en 0 y => se le suma lo que hay en my_explorer_in_list.exercises_completed
 console.log(all_exercises)

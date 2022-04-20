@@ -43,7 +43,7 @@ const issue = {
         //return 'This issue ${this.title} was created on ${this.dateCreated}'
     }
 }
-console.log('/// Ejercicio 2 /// Issue')
+console.log('/// Ejercicio 1 /// Issue')
 console.log("Titulo del issue: " +issue.title)
 console.log("Información del issue: " +issue.getTitleAndAuthor())
 console.log(issue.getGeneralInfo())
@@ -62,7 +62,7 @@ const pullRequest = {
         return this.title + this.repositoryNameAssociated
     }
 }
-console.log('/// Ejercicio 2 /// PullRequest')
+console.log('/// Ejercicio 1 /// PullRequest')
 console.log("Titulo del PR: " +pullRequest.title)
 console.log("Status del PR: " +pullRequest.getStatus())
 console.log(pullRequest.getTitleAndAutor())

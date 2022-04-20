@@ -61,5 +61,12 @@ const explorers = [
 
    //2.1 Imprime el nombre de cada explorer en la lista
    // usa FOREACH
+   console.log("Ejercicio 2.1:")
    explorers.forEach(explorer => console.log(explorer.name))
 //objeto.forEach(nombreYoleDe => console.log(nombreYoleDe.caracteristica)))
+
+//2.2 Imprime el stack de cada explorer, usa FOR EACH
+console.log("\nEjercicio 2.2")
+explorers.forEach(item => console.log(item.stack))
+
+//

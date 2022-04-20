@@ -86,3 +86,16 @@ console.log("\nEjercicio 2.5")
 const first_explorer_in_cdmx = explorers.find(list_explorer => list_explorer.city === "CDMX")
 console.log(first_explorer_in_cdmx)
 
+//2.6 Obtén la suma de todos los exercises_completed, usa REDUCE
+console.log("\nEjercicio 2.6")
+const all_exercises = explorers.reduce((acc, my_explorer_in_list) => acc + my_explorer_in_list.exercises_completed, 0)
+    //(acumulador, variable) => acumulador + variable.deDondeLoSacaras, inicializar el acc))
+    // el acumulador inicia en 0 y => se le suma lo que hay en my_explorer_in_list.exercises_completed
+console.log(all_exercises)
+
+//2.7 Obtén la validación si al menos uno de los explorers tiene la propiedad
+// exercisesFinished en frontend como true, usa SOME
+
+
+//2.8 Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding
+// como true. Usa EVERY.

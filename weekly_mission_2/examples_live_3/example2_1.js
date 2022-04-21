@@ -18,5 +18,8 @@ console.log(Ajolonauta)
 // Creacion de un objeto a partir de la clase Ajolonauta
 const woopa = new Ajolonauta() //el crear un objeto se le llama "instanciar"
 const wooper = new Ajolonauta() //nuevo objeto 
-const woopy = Ajolonauta() //nuevo objeto
+const woopy = new Ajolonauta() //nuevo objeto
+
 console.log(woopa)
+console.log(wooper)
+console.log(woopy)

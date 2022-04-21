@@ -41,6 +41,12 @@ class Ajolonauta_constructor {
     }
 }
 
+//instanciar e imprimir objeto de clase con constructor 
 console.log("\n Imprimir objeto de clase con constructor: ")
 const new_woopa = new Ajolonauta_constructor("Woopa", "Node JS", 18, "Pink")
 console.log(new_woopa)
+
+// instanciar otro objeto de clase con constructor
+console.log("\n Imprimir NUEVO objeto de clase con constructor: ")
+const new_wooper = new Ajolonauta_constructor("Wooper", "java", 10, "Blue")
+console.log(new_wooper)

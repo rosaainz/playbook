@@ -42,7 +42,7 @@ class Ajolonauta_constructor {
 
     //Metodos de la clase (comportamiento)
     sayHello(){
-        return "Hey! Hello"
+        return this.name+ ' is saying Hello!'
     }
 }
 

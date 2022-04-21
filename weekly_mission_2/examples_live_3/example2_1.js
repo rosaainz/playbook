@@ -1,7 +1,7 @@
 console.log("POO")
 
 // objeto de js   Abstraer informacion
-const woopa = {
+const woopa_obj = {
     name: "Woopa",
     mission: "Node JS",
     age: "12",
@@ -14,3 +14,7 @@ class Ajolonauta {  //la sintaxis va con inicial mayuscula
 }
 
 console.log(Ajolonauta)
+
+// Creacion de un objeto a partir de la clase Ajolonauta
+const woopa = new Ajolonauta() //el crear un objeto se le llama "instanciar"
+console.log(woopa)

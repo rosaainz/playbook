@@ -1,9 +1,9 @@
 class Superhero {
 
-    constructor(name, actor, heroName){
+    constructor(name, heroName, actor){
         this.name = name
-        this.actor = actor
         this.heroName = heroName
+        this.actor = actor
 
     }
 }

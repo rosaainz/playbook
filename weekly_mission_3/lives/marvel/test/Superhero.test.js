@@ -1,4 +1,4 @@
-const Superhero = require()
+const Superhero = require("../app/Superhero"))
 
 describe("Unit Test for Superhero", () =>{
 	test('Case 1: Get a superhero', () => {
